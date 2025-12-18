@@ -1,0 +1,15 @@
+# Initialize git
+git init
+
+# Add all your files
+git add .
+
+# Commit the changes
+git commit -m "Initial BMW M Configurator build"
+
+# Link your local code to GitHub (Paste your URL here)
+git remote add origin https://github.com/your-username/bmw-m-configurator.git
+
+# Push your code to the cloud
+git branch -M main
+git push -u origin main
